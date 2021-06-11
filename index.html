@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body onload="showClock()">
+<h2>Wellcome to my project!!</h2>
+    <div class="container">
+        <form class="form" id="form" >
+            <h1>Register now</h1>
+
+            <div class="watch" id="watch"> </div>
+
+            <div class="form-control">
+                <label for="username">User Name : </label>
+                <input type="text" id="username" placeholder="Enter username" > <br>
+                <small> Invalid username</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email : </label>
+                <input type="email" id="email" placeholder="Enter email" > <br>
+                <small>Invalid email</small>
+            </div>
+            <div class="form-control">
+                <label for="phone">Phone : </label>
+                <input type="number" id="phone" placeholder="Enter phone number" > <br>
+                <small>Invalid number</small>
+            </div>
+
+
+            <div class="form-control">
+                <label for="address">Address : </label>
+                <input type="text" id="address" placeholder="Enter address" > <br>
+                <small>Invalid address</small>
+            </div>
+
+
+            <div class="form-control">
+                <label for="gender">Gender : </label>
+                <li> <input type="radio" name="gender" value="male"> Male </li> 
+                <li> <input type="radio" name="gender" value="female"> Female  </li>
+                <li> <input type="radio" name="gender" value="female"> Others </li>
+                <small>Unknown gender</small>
+            </div>
+
+ <!-- =======================================-======= -->
+            <div class="form-control">
+                <label for="password">Password : </label>
+                <input type="password" id="pass1" placeholder="Enter password" > <br>
+                <small id="small1">Invalid password</small>
+            </div>
+            <div class="form-control">
+                <label for="password2">Confirm Password : </label> 
+                <input type="password" id="pass2" placeholder="Enter password again"><br>
+                <small id="small2">Password mismatched</small>
+            </div>
+
+            <div>
+                <h5>Upload your CV</h5>
+                <input type="file" id="file" class="input-file">
+            </div>
+            
+            <button type="submit">Submit</button>
+
+            <footer>
+                <h3>Designed & developed by <br> <small> &rArr; © Shab Uddin Rayhan &lArr; </small</h3>
+            </footer>    
+        </form>        
+    </div>
+
+
+<script src="index.js"></script>
+</body>
+</html>
+

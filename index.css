@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: radial-gradient(rgb(194, 164, 202), rgba(134, 211, 211, 0.87));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: rgb(187, 6, 0);
+    position: absolute;
+    top: 18px;
+}
+.container{
+    margin: 120px auto;
+    display: flex;
+    background-color: rgba(233, 233, 217, 0.589);
+    border-radius:20px;
+    width: 550px;
+    height: 760px;
+    padding: 20px;
+    box-shadow: 0px 1px 9px 0px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.watch {
+    padding-left: 5px;
+    width: 48%;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'digital-clock-font';
+    color: #1b665c;
+    background-color: rgba(253, 249, 249, 0.822);
+    left: 281px;
+    top: -18px;
+    border-radius: 20px;
+    position: relative;
+}
+.form{
+    margin: 0 auto;
+    position: relative;
+}
+.form-control{
+    margin: 4px 0px;
+    position: relative;
+}
+.form-control label{
+    padding: 5px;
+    color: rgba(57, 59, 54, 0.842);
+    font-weight: bold ;
+}
+.form-control input{
+    border-radius: 6px;
+    padding: 4px 5px;
+    border: 2.2px solid black;
+    width: 240px;
+}
+.form-control input:focus{
+    outline: 0px;
+    border: 2.2px solid rgb(250, 144, 23);
+}
+.form-control.success input{
+    border-color: rgb(32, 211, 47);
+}
+.form-control.error input{
+    border-color: rgb(241, 8, 8);
+}
+li {
+    display: list-item;
+    list-style-type: none;
+    color: rgb(192, 1, 128);
+}
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 0px -81px 0px -39px;
+}
+.form-control small{
+    color: rgb(192, 15, 30);
+    margin: 0px 35px;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+    visibility: hidden;    
+}
+.form-control.error small{
+    visibility: visible;
+}
+input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+h5{
+    line-height: 25px;
+}
+button{
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 19px;
+    padding: 4px 0px;
+    display: block;
+    cursor: pointer;
+    background-color: royalblue;
+    border: royalblue;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    width: 60%;
+    border-radius: 7px;
+}
+button:hover{
+    background-color: rgba(241, 66, 12, 0.986);
+    font-size: 20px;
+    border-radius: 9px;
+    transition: .3s;
+    width: 65%;
+}
+h3{
+    margin-top: 10px;
+    margin-bottom: 90px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 19px;
+    color: rgb(21, 126, 91);
+    font-style:italic;
+}
+/* /////////////////////////////////////////////////////// */
+
+@media only screen and (max-width: 565px){
+    h2{
+        font-size: 25px;
+        font-weight: bold;
+        font-family:Georgia, 'Times New Roman', Times, serif ;
+        color: rgb(187, 6, 0);
+        position: absolute;
+        top: 18px;
+    }
+    .container{
+        margin-top: 70px;
+        display: flex;
+        background-color: rgba(233, 233, 217, 0.589);
+        border-radius:20px;
+        width: 340px;
+        height: 850px;
+        padding: 20px;
+        box-shadow: 0px 1px 9px 0px;
+    }
+    .watch {
+        width: 53%;
+        padding-left: 4px;
+        font-size: 18px;
+        font-family: 'digital-clock-font';
+        color: #ce0c56;
+        background-color: rgb(118 207 118 / 42%);
+        left: 73px;
+        top: -18px;
+        position: relative;
+    }
+    .form-control{
+        margin: 10px 2px;
+        position: relative;
+    }
+    .form-control input{
+        border-radius: 6px;
+        padding: 4px 5px;
+        border: 2px solid black;
+        width: 170px;
+    }
+    input[type="radio" i] {
+        background-color: initial;
+        cursor: default;
+        appearance: auto;
+        box-sizing: border-box;
+        margin: 16px -50px 0px 0px;
+    }
+}
+ 
